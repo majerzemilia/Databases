@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE wycieczki_t as table of wycieczki_r;

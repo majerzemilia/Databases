@@ -1,0 +1,5 @@
+CREATE VIEW dostepne_wycieczki
+AS
+SELECT *
+from WYCIECZKI_MIEJSCA w
+where w.DATA > CURRENT_DATE and w.WOLNE_MIEJSCA > 0;

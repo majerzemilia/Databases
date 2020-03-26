@@ -1,0 +1,2 @@
+CREATE OR REPLACE TYPE uczestnicy_wycieczki_tabela as table of
+uczestnicy_wycieczki_rekord;

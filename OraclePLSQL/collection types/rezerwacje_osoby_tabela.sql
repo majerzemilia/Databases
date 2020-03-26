@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE rezerwacje_osoby_tabela as table of rezerwacje_osoby_rekord;
